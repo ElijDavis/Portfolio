@@ -1,2 +1,9 @@
-# Data-Structures-and-Algorithms
-All algorithms and data structures I've learned compiled into one project for easy use and visualization. Statistical analysis programs will be added in addtition.
+# My Portfolio
+A website containing all the skill that I have and everything I have done. This includes:
+- Knowledge
+- Skills
+- Projects
+- Certificates
+- Degrees
+- etc.
+
