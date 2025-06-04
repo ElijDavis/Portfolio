@@ -7,9 +7,10 @@ export default function Home() {
     <div>
       <Header />
       <Summary />
-      <div className="grid-cols-3 justify-center mt-20">
-        <Skill_block />
-        <Skill_block />
+      <div className="flex flex-row justify-center gap-x-32 mt-24">
+        <Skill_block title={"Photography"}/>
+        <Skill_block title={"Data Structures and Algorithms"}/>
+        <Skill_block title={"Fashion Design"}/>
       </div>
     </div>
   );
