@@ -1,8 +1,9 @@
 const AlgorithmsPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold mb-4">Algorithms</h1>
-      <p className="text-lg text-gray-700">This page is under construction.</p>
+    <div>
+      <div className="w-1 h-40 bg-blue"></div>
+      <div className="w-40 h-40 bg-green"></div>
+      <div className="w-40 h-10 bg-red"></div>
     </div>
   );
 }

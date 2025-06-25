@@ -1,9 +1,8 @@
 type Props = {
   title?: string;
-  link?: string;
 };
 
-export function Skill_block ({title, link}:Props){
+export function Skill_block ({title}:Props){
   return (
     <div className="h-48 md:h-72 w-48 md:w-72 bg-gradient-to-br from-rose-600 to-amber-600 rounded-2xl md:rounded-3xl content-center select-none">
       <button>
