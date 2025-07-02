@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import {Header, Summary} from "../components/Portfolio-Head";
 import { Skill_block } from "../components/Skill-Blocks";
 import { Tool } from "../components/Tool_Bar";
