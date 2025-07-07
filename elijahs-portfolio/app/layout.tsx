@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('/DS2_copilot_variant.png')] bg-cover bg-center bg-no-repeat text-foreground`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('/DS2_copilot_variant.png')] md:bg-cover bg-contain bg-center bg-no-repeat text-foreground`}>
         {children}
       </body>
     </html>
