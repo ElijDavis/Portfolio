@@ -19,3 +19,21 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  --color-purphaze: #5B15FF;
+}
+
+@theme light {
+  body {
+    color: var(--foreground);
+    background: var(--background);
+  }
+}
+
+@theme dark {
+  body {
+    color: var(--foreground);
+    background: var(--background);
+  }
+}
