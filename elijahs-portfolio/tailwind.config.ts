@@ -12,6 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         purphaze: '#5B15FF',
+        moodyblue: '#15334F',
+        darkcoral: '#FF6A75',
       },
     },
   },
