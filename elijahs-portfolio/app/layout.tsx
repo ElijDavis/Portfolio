@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Html } from "next/document";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('/DS2_copilot_variant.png')] bg-cover bg-center bg-no-repeat text-foreground`}>
         {children}
       </body>
