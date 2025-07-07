@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NavBar = () => {
     return (
-        <div className="w-1/4 m-auto mt-10 flex flex-row items-center gap-x-5 justify-self-center">
+        <div className=" mt-10 flex items-center gap-x-5 justify-center">
             <Link href="/"><NavComponent title="Home"/></Link>
             <Link href="/Experience"><NavComponent title="Experience"/></Link>
             <Link href="/Projects"><NavComponent title="Projects"/></Link>
@@ -22,4 +22,4 @@ const NavComponent = ({ title }: NavComponentProps) => {
     )
 }
 
-export default NavBar
+export default NavBar;
