@@ -1,11 +1,13 @@
 import Link from "next/link";
+import { Socials } from "./Socials";
 
 const NavBar = () => {
     return (
         <div className="mb-10 mt-10 flex items-center md:gap-x-10 gap-x-5 justify-center">
-            <Link href="/"><NavComponent title="Home"/></Link>
-            <Link href="/Experience"><NavComponent title="Experience"/></Link>
-            <Link href="/Projects"><NavComponent title="Projects"/></Link>
+            <Link href="/"><NavComponent title="HOME"/></Link>
+            <Link href="/Experience"><NavComponent title="EXPERIENCE"/></Link>
+            <Link href="/Projects"><NavComponent title="PROJECTS"/></Link>
+            <Socials/>
         </div>
     )
 }
