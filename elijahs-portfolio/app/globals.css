@@ -17,8 +17,14 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, "Oranienbaum";
+  background-size: calc(100% + (20% * ((100vw - 320px) / (1280 - 320)))) auto;
 }
+
+/*body {
+  background-size: calc(100% + (20% * ((100vw - 320px) / (1280 - 320)))) auto;
+}*/
+
 
 @theme {
   --color-purphaze: #5B15FF;

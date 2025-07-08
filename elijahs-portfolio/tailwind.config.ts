@@ -15,6 +15,9 @@ export default {
         moodyblue: '#15334F',
         darkcoral: '#FF6A75',
       },
+      backgroundPosition: {
+        'center-20px': 'center 160px',
+      },
     },
   },
   plugins: [],
