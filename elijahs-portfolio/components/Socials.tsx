@@ -12,7 +12,7 @@ export function Socials () {
         <div className="flex flex-row gap-x-5 justify-between content-center rounded-2xl bg-black" >
           <IconCircle icon="/icons/Github1.png" link="https://github.com/ElijDavis" />
           <IconCircle icon="/icons/LinkedIn.png" link="https://www.linkedin.com/in/elijah-davis-7823ny/" />
-          <IconCircle icon="/icons/youtube.png" link="https://www.youtube.com/channel/UCa4X17rOT6q3kohFtT33jzg" />
+          <IconCircle icon="/icons/youtube.png" link="https://www.youtube.com/channel/UCa4X17rOT6q3kohFtT33jzg?sub_confirmation=1" />
           <IconCircle icon="/icons/twitch.png" link="https://www.twitch.tv/elijahdevdavis" />
           <IconCircle icon="/icons/tiktok.png" link="https://www.tiktok.com/@elijahdavisdev" />
           <IconCircle icon="/icons/Outlook.png" link="elijahadavis1@outlook.com" />
