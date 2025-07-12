@@ -79,7 +79,7 @@ export async function ccreateGraph(input: CGragh): Promise<CGragh> {
   return await res.json();
 }
 
-export async function cdfs(input: DFSGraph): Promise<String> {
+export async function cdfs(input: DFSGraph): Promise<string> {
   const res = await fetch(`${API_BASE}/api/assignment6/problem1/DFS`, {
     method: "POST",
     body: JSON.stringify(input),
@@ -92,7 +92,7 @@ export async function cdfs(input: DFSGraph): Promise<String> {
   return await res.json();
 }
 
-export async function AdjList(input: Graph): Promise<String> {
+export async function AdjList(input: Graph): Promise<string> {
   const res = await fetch(`${API_BASE}/api/assignment6/problem1/getAdjacencyList`, {
     method: "POST",
     body: JSON.stringify(input),
